@@ -1,0 +1,36 @@
+.btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  background-image: url(../img/hero-gau-strong.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all 0.2s ease-in;
+}
+.btn span {
+  color: var(--white);
+  z-index: 5;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.2s ease-in;
+  /*background-image: linear-gradient(90deg, rgba(255,255,255,0.8), rgba(158, 158, 158, 0.8));
+  opacity: 0.4;*/
+}
+.btn:hover::after {
+  background-color: rgba(255,255,255,0.6);
+}

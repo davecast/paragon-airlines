@@ -1,0 +1,43 @@
+:root {
+  --white: #ffffff;
+  --black: #333333;
+  --blue: #64adfc;
+  --grey: #f1f1f1;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+/*text*/
+.t--uppercase {
+  text-transform: uppercase;
+}
+.t--capitalize {
+  text-transform: capitalize;
+}
+.title--section {
+  font-size: 28px;
+  line-height: 28px;
+  color: var(--white);
+  margin: 0 0 20px;
+}

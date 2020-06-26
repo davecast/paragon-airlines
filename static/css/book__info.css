@@ -1,0 +1,34 @@
+.book__info {
+  padding-top: 25px;
+  text-transform: capitalize;
+}
+.book__info--title {
+  font-size: 10px;
+  line-height: 10px;
+  margin: 0 0 10px;
+}
+.book__info--city {
+  margin: 0 0 5px;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 400;
+}
+.book__info--citymini {
+  font-size: 14px;
+    line-height: 14px;
+    margin: 0;
+}
+.book__info--separator {
+  height: 2px;
+  width: 100%;
+  background-color: var(--grey);
+  margin: 20px 0;
+  border: none;
+  opacity: 0.45;
+}
+.book__info--data {
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+}
